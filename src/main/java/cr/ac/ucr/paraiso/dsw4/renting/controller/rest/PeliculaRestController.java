@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import cr.ac.ucr.paraiso.dsw4.renting.business.PeliculaBusiness;
 import cr.ac.ucr.paraiso.dsw4.renting.domain.Pelicula;
 
+
 @RestController
 @RequestMapping(value = "/peliculas")
 @CrossOrigin(origins= "http://localhost:4200")
@@ -28,7 +29,7 @@ public class PeliculaRestController {
         if (peliculas.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
-        return ResponseEntity.ok(peliculas); //:)
+        return ResponseEntity.ok(peliculas); 
     }
    
 }

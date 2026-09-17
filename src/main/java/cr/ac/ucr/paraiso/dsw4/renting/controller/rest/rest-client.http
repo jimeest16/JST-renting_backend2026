@@ -1,6 +1,6 @@
 @baseUrl = http://localhost:8084/renting
 
 ### Search movies by title or genre
-GET {{baseUrl}}/peliculas?titulo=Little Women&genero=Drama
+GET {{baseUrl}}/peliculas?titulo=Little Women&genero=a
 Accept: application/json
 Content-Type: application/json

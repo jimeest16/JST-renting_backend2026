@@ -20,6 +20,7 @@ public class PeliculaController {
     @Autowired
     public PeliculaController(PeliculaBusiness movieBussiness) {
         this.movieBussiness = movieBussiness;
+        
     }
  
     @RequestMapping(value="/findMovies", method=RequestMethod.GET)
