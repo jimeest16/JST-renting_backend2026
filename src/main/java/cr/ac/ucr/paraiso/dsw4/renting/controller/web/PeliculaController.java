@@ -34,4 +34,5 @@ public class PeliculaController {
         model.addAttribute("peliculas", peliculas);
         return "findMovies";
     }
+        
 }
